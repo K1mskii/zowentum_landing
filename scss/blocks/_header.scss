@@ -1,0 +1,60 @@
+.header {
+    padding: 26px 0;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__logo {}
+
+.header__links {
+    display: flex;
+    align-items: center;
+}
+
+.header__link {
+    margin: 0 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: #000C2D;
+}
+
+.header__link:hover {
+    border-bottom: 2px solid #2F70FE;
+}
+
+.header__btn {
+    margin: 0 32px;
+    border: 1px solid #2F70FE;
+    padding: 12px 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2F70FE;
+}
+
+.header__login {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #000C2D;
+}
+
+.header__icon {
+    margin-right: 4px;
+}
+
+.header__login:hover .header__icon {
+    color: #2F70FE;
+}

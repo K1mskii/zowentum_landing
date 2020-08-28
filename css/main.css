@@ -1,0 +1,237 @@
+.inner {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 26px 0;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__link {
+  margin: 0 32px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #000C2D;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid #2F70FE;
+}
+
+.header__btn {
+  margin: 0 32px;
+  border: 1px solid #2F70FE;
+  padding: 12px 23px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #2F70FE;
+}
+
+.header__login {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #000C2D;
+}
+
+.header__icon {
+  margin-right: 4px;
+}
+
+.header__login:hover .header__icon {
+  color: #2F70FE;
+}
+
+.hero {
+  z-index: 2;
+  position: relative;
+  background: url(../../img/blue-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.hero__content {
+  max-width: 789px;
+  margin: 0 auto;
+  padding: 114px 0 137px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero__text {
+  margin: 7px 0 33px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero__btn {
+  background: #000;
+  border: none;
+  padding: 16px 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.hero__img {
+  position: absolute;
+}
+
+.hero__img-1 {
+  margin-left: 98px;
+  bottom: -40px;
+}
+
+.hero__img-2 {
+  margin-right: 128px;
+  bottom: 70px;
+  right: 0;
+}
+
+.hero-list {
+  margin-top: -80px;
+  position: relative;
+  background: url(../../img/green-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.hero-list__content {
+  padding-top: 144px;
+  padding-bottom: 148px;
+}
+
+.hero-list__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.hero-list__items {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero-list__item {
+  margin: 0 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-list__icon {
+  margin-bottom: 24px;
+}
+
+.hero-list__desc {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000C2D;
+}
+
+.hero-list__img {
+  position: absolute;
+}
+
+.hero-list__img-1 {
+  margin-left: 98px;
+  bottom: 81px;
+}
+
+.hero-list__img-2 {
+  top: 86px;
+  right: 0;
+  margin-right: 74px;
+}
+/*# sourceMappingURL=main.css.map */

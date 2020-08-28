@@ -1,0 +1,68 @@
+.hero-list {
+    margin-top: -80px;
+    position: relative;
+    background: url(../../img/green-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.hero-list__content {
+    padding-top: 144px;
+    padding-bottom: 148px;
+}
+
+.hero-list__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.hero-list__items {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-list__item {
+    margin: 0 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-list__icon {
+    margin-bottom: 24px;
+}
+
+.hero-list__desc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000C2D;
+}
+
+.hero-list__img {
+    position: absolute;
+}
+
+.hero-list__img-1 {
+    margin-left: 98px;
+    bottom: 81px;
+}
+
+.hero-list__img-2 {
+    top: 86px;
+    right: 0;
+    margin-right: 74px;
+}
