@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header">
     <div class="inner">
       <nav class="header__nav">
@@ -24,7 +25,7 @@
           <li><a href="#" class="header__link">Company</a></li>
           <li><a href="#" class="header__link">Blog</a></li>
           <a href="#" class="header__btn">Get a demo</a>
-          <a href="#" class="header__login"><i class="far fa-user header__icon"></i>Login</a>
+          <a href="#" class="header__login" id="modal-btn"><i class="far fa-user header__icon"></i>Login</a>
         </ul>
       </nav>
       <!-- Dropdown -->
@@ -53,6 +54,35 @@
     </div>
   </header>
 
+  <!-- Login window -->
+  <div id="my-modal" class="modal">
+    <div class="modal__content">
+      <div class="modal__header">
+        <span class="modal__close">&times;</span>
+        <span class="modal__title">Login</span>
+      </div>
+      <div class="modal__body">
+        <form action="#" class="login__form">
+          <div class="login__block">
+            <input type="text" class="login__input" placeholder="Username" name="username">
+          </div>
+          <div class="login__block">
+            <input type="password" class="login__input" placeholder="Password" name="password">
+          </div>
+          <input type="checkbox" id="test1" />
+          <label for="test1" class="login__remember">Remember me?</label>
+          <div class="login__block">
+            <input class="login__btn" type="submit" value="Sign In" />
+          </div>
+        </form>
+      </div>
+      <div class="modal__footer">
+        <span class="login__not">Not a member? <a href="#" class="login__signup-btn">Sign Up</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
   <div class="hero">
     <img src="img/partner-left.svg" alt="Partner-Left" class="hero__img hero__img-1" />
     <div class="hero__content">
@@ -70,6 +100,7 @@
     <img src="img/partner-right.svg" alt="Partner-Right" class="hero__img hero__img-2" />
   </div>
 
+  <!-- Hero List -->
   <div class="hero-list">
     <img src="img/romb.png" alt="Romb" class="hero-list__img hero-list__img-1" />
     <div class="hero-list__content">
@@ -95,6 +126,7 @@
     <img src="img/romb.png" alt="Romb" class="hero-list__img hero-list__img-2" />
   </div>
 
+  <!-- About -->
   <div class="about">
     <div class="about__content">
       <div class="about__item">
@@ -170,6 +202,7 @@
     </div>
   </div>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="footer__inner">
       <nav class="footer__nav">

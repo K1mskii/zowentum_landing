@@ -192,6 +192,145 @@
   }
 }
 
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal__content {
+  margin: 10% auto;
+  width: 350px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+          box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  -webkit-animation-name: modalopen;
+          animation-name: modalopen;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.modal__header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2f70fe;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal__title {
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.modal__body {
+  padding: 10px 20px;
+  background: #fff;
+}
+
+.login__block {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login__input {
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #eaeaea;
+}
+
+.login__btn {
+  padding: 10px;
+  background: #2f70fe;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login__remember {
+  font-weight: 400;
+}
+
+.modal__footer {
+  background: #2f70fe;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.modal__close {
+  position: absolute;
+  color: #ccc;
+  right: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.modal__close:hover,
+.modal__close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login__signup-btn {
+  text-decoration: underline;
+}
+
+@-webkit-keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .modal__content {
+    padding: 0 5px;
+    width: 100%;
+  }
+}
+
 .hero {
   z-index: 2;
   position: relative;
