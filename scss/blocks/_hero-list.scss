@@ -66,3 +66,59 @@
     right: 0;
     margin-right: 74px;
 }
+
+@media screen and (max-width: 1110px) {
+    .hero-list__img-1 {
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .hero-list__img-1 {
+        margin-left: 50px;
+        bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .hero-list__item:last-child {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+    .hero-list__item:nth-child(2) {
+        margin: 40px 0;
+    }
+
+    .hero-list__item:last-child {
+        margin-top: 0;
+    }
+
+    .hero-list__img-2 {
+        top: 86px;
+        right: 0;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .hero-list__img-2 {
+        top: 200px;
+        right: 0;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+
+    .hero-list__img-1,
+    .hero-list__img-2 {
+        display: none;
+    }
+
+    .hero-list__content {
+        padding: 80px 0;
+    }
+}
